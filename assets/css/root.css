@@ -33,3 +33,18 @@ button, select, input {
 button, input[type=submit], input[type=button] {
     cursor: pointer !important;
 }
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.section-title.ttl2 {
+    font-weight: 700;
+    margin-top: 80px;
+}
