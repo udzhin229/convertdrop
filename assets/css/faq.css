@@ -68,11 +68,20 @@ section {
     position: absolute;
     left: 50%;
     top: 50%;
+    z-index: 2;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+.accordion .accordion-item .accordion-header.active .plus .line:first-child {
+    border: 2px solid #FAA05F;
 }
 .accordion .accordion-item .accordion-header .plus .line:last-child {
     width: 18px;
